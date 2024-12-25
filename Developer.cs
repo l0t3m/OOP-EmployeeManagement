@@ -24,9 +24,7 @@ namespace Task1
 
         public void PrintDeveloperDetails()
         {
-            Console.WriteLine($"{this.Name} (ID {this.Id})");
-            Console.WriteLine($"   Base Salary: {this.BaseSalary}");
-            Console.WriteLine($"   Projects: {this.numberOfProjects}");
+            Console.WriteLine($"{this.Name} (ID {this.Id}) \t Base Salary: {this.BaseSalary} \t Projects: {this.numberOfProjects}");
         }
     }
 }

@@ -17,7 +17,7 @@ namespace Task1
             Console.WriteLine("4 - Exit the program");
         }
 
-        public static Developer Handle_AddDev()
+        public static Developer Handle_AddDev() // Handles option 1
         {
             Console.Write("Name: ");
             string name = Console.ReadLine();
@@ -34,7 +34,7 @@ namespace Task1
             return new Developer(name, id, baseSalary, projects);
         }
 
-        public static Manager Handle_AddManager()
+        public static Manager Handle_AddManager() // Handles option 2
         {
             Console.Write("Name: ");
             string name = Console.ReadLine();

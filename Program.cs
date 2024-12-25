@@ -1,6 +1,6 @@
 ﻿namespace Task1
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -15,7 +15,6 @@
                 Console.Clear();
                 myCompany.PrintCompany();
                 MenuManager.PrintMenu();
-
                 Console.Write("Choose an option: ");
                 string choice = Console.ReadLine();
                 Console.Clear();
@@ -45,12 +44,12 @@
                         Console.ReadLine();
                         Environment.Exit(0);
                         break;
-                    case "5":
-                        myCompany.AddDeveloper(DebugHelp.CreateDebugDeveloper());
-                        break;
-                    case "6":
-                        myCompany.AddManager(DebugHelp.CreateDebugManager());
-                        break;
+                    //case "5":
+                    //    myCompany.AddDeveloper(DebugHelp.CreateDebugDeveloper());
+                    //    break;
+                    //case "6":
+                    //    myCompany.AddManager(DebugHelp.CreateDebugManager());
+                    //    break;
                 }
             }
         }

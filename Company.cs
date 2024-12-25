@@ -100,7 +100,6 @@ namespace Task1
                     {
                         developer.PrintDeveloperDetails();
                     }
-                    Console.WriteLine("----------------------");
                 }
                 
                 if (managers.Count > 0)
@@ -110,7 +109,6 @@ namespace Task1
                     {
                         manager.PrintManagerDetails();
                     }
-                    Console.WriteLine("---------------------");
                 }
             }
         }
